@@ -1,0 +1,260 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">14.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+    <Name>NodejsConsoleApp1</Name>
+    <RootNamespace>NodejsConsoleApp1</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>beb28fec-4718-4960-b40a-60a7ff199254</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>app.js</StartupFile>
+    <StartWebBrowser>False</StartWebBrowser>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <ProjectTypeGuids>{3AF33F2E-1136-4D97-BBB7-1795711AC8B8};{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}</ProjectTypeGuids>
+    <StartWebBrowser>false</StartWebBrowser>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="app.js" />
+    <Compile Include="Scripts\jquery-3.3.1.intellisense.js" />
+    <Compile Include="Scripts\jquery-3.3.1.js" />
+    <Compile Include="Scripts\jquery-3.3.1.min.js" />
+    <Compile Include="Scripts\jquery-3.3.1.slim.js" />
+    <Compile Include="Scripts\jquery-3.3.1.slim.min.js" />
+    <Compile Include="Scripts\tinymce\jquery.tinymce.min.js" />
+    <Compile Include="Scripts\tinymce\plugins\advlist\plugin.js" />
+    <Compile Include="Scripts\tinymce\plugins\advlist\plugin.min.js" />
+    <Compile Include="Scripts\tinymce\plugins\anchor\plugin.js" />
+    <Compile Include="Scripts\tinymce\plugins\anchor\plugin.min.js" />
+    <Compile Include="Scripts\tinymce\plugins\autolink\plugin.js" />
+    <Compile Include="Scripts\tinymce\plugins\autolink\plugin.min.js" />
+    <Compile Include="Scripts\tinymce\plugins\autoresize\plugin.js" />
+    <Compile Include="Scripts\tinymce\plugins\autoresize\plugin.min.js" />
+    <Compile Include="Scripts\tinymce\plugins\autosave\plugin.js" />
+    <Compile Include="Scripts\tinymce\plugins\autosave\plugin.min.js" />
+    <Compile Include="Scripts\tinymce\plugins\bbcode\plugin.js" />
+    <Compile Include="Scripts\tinymce\plugins\bbcode\plugin.min.js" />
+    <Compile Include="Scripts\tinymce\plugins\charmap\plugin.js" />
+    <Compile Include="Scripts\tinymce\plugins\charmap\plugin.min.js" />
+    <Compile Include="Scripts\tinymce\plugins\codesample\plugin.js" />
+    <Compile Include="Scripts\tinymce\plugins\codesample\plugin.min.js" />
+    <Compile Include="Scripts\tinymce\plugins\code\plugin.js" />
+    <Compile Include="Scripts\tinymce\plugins\code\plugin.min.js" />
+    <Compile Include="Scripts\tinymce\plugins\colorpicker\plugin.js" />
+    <Compile Include="Scripts\tinymce\plugins\colorpicker\plugin.min.js" />
+    <Compile Include="Scripts\tinymce\plugins\compat3x\plugin.js" />
+    <Compile Include="Scripts\tinymce\plugins\compat3x\plugin.min.js" />
+    <Compile Include="Scripts\tinymce\plugins\compat3x\tiny_mce_popup.js" />
+    <Compile Include="Scripts\tinymce\plugins\compat3x\utils\editable_selects.js" />
+    <Compile Include="Scripts\tinymce\plugins\compat3x\utils\form_utils.js" />
+    <Compile Include="Scripts\tinymce\plugins\compat3x\utils\mctabs.js" />
+    <Compile Include="Scripts\tinymce\plugins\compat3x\utils\validate.js" />
+    <Compile Include="Scripts\tinymce\plugins\contextmenu\plugin.js" />
+    <Compile Include="Scripts\tinymce\plugins\contextmenu\plugin.min.js" />
+    <Compile Include="Scripts\tinymce\plugins\directionality\plugin.js" />
+    <Compile Include="Scripts\tinymce\plugins\directionality\plugin.min.js" />
+    <Compile Include="Scripts\tinymce\plugins\emoticons\plugin.js" />
+    <Compile Include="Scripts\tinymce\plugins\emoticons\plugin.min.js" />
+    <Compile Include="Scripts\tinymce\plugins\fullpage\plugin.js" />
+    <Compile Include="Scripts\tinymce\plugins\fullpage\plugin.min.js" />
+    <Compile Include="Scripts\tinymce\plugins\fullscreen\plugin.js" />
+    <Compile Include="Scripts\tinymce\plugins\fullscreen\plugin.min.js" />
+    <Compile Include="Scripts\tinymce\plugins\help\plugin.js" />
+    <Compile Include="Scripts\tinymce\plugins\help\plugin.min.js" />
+    <Compile Include="Scripts\tinymce\plugins\hr\plugin.js" />
+    <Compile Include="Scripts\tinymce\plugins\hr\plugin.min.js" />
+    <Compile Include="Scripts\tinymce\plugins\imagetools\plugin.js" />
+    <Compile Include="Scripts\tinymce\plugins\imagetools\plugin.min.js" />
+    <Compile Include="Scripts\tinymce\plugins\image\plugin.js" />
+    <Compile Include="Scripts\tinymce\plugins\image\plugin.min.js" />
+    <Compile Include="Scripts\tinymce\plugins\importcss\plugin.js" />
+    <Compile Include="Scripts\tinymce\plugins\importcss\plugin.min.js" />
+    <Compile Include="Scripts\tinymce\plugins\insertdatetime\plugin.js" />
+    <Compile Include="Scripts\tinymce\plugins\insertdatetime\plugin.min.js" />
+    <Compile Include="Scripts\tinymce\plugins\legacyoutput\plugin.js" />
+    <Compile Include="Scripts\tinymce\plugins\legacyoutput\plugin.min.js" />
+    <Compile Include="Scripts\tinymce\plugins\link\plugin.js" />
+    <Compile Include="Scripts\tinymce\plugins\link\plugin.min.js" />
+    <Compile Include="Scripts\tinymce\plugins\lists\plugin.js" />
+    <Compile Include="Scripts\tinymce\plugins\lists\plugin.min.js" />
+    <Compile Include="Scripts\tinymce\plugins\media\plugin.js" />
+    <Compile Include="Scripts\tinymce\plugins\media\plugin.min.js" />
+    <Compile Include="Scripts\tinymce\plugins\nonbreaking\plugin.js" />
+    <Compile Include="Scripts\tinymce\plugins\nonbreaking\plugin.min.js" />
+    <Compile Include="Scripts\tinymce\plugins\noneditable\plugin.js" />
+    <Compile Include="Scripts\tinymce\plugins\noneditable\plugin.min.js" />
+    <Compile Include="Scripts\tinymce\plugins\pagebreak\plugin.js" />
+    <Compile Include="Scripts\tinymce\plugins\pagebreak\plugin.min.js" />
+    <Compile Include="Scripts\tinymce\plugins\paste\plugin.js" />
+    <Compile Include="Scripts\tinymce\plugins\paste\plugin.min.js" />
+    <Compile Include="Scripts\tinymce\plugins\preview\plugin.js" />
+    <Compile Include="Scripts\tinymce\plugins\preview\plugin.min.js" />
+    <Compile Include="Scripts\tinymce\plugins\print\plugin.js" />
+    <Compile Include="Scripts\tinymce\plugins\print\plugin.min.js" />
+    <Compile Include="Scripts\tinymce\plugins\save\plugin.js" />
+    <Compile Include="Scripts\tinymce\plugins\save\plugin.min.js" />
+    <Compile Include="Scripts\tinymce\plugins\searchreplace\plugin.js" />
+    <Compile Include="Scripts\tinymce\plugins\searchreplace\plugin.min.js" />
+    <Compile Include="Scripts\tinymce\plugins\spellchecker\plugin.js" />
+    <Compile Include="Scripts\tinymce\plugins\spellchecker\plugin.min.js" />
+    <Compile Include="Scripts\tinymce\plugins\tabfocus\plugin.js" />
+    <Compile Include="Scripts\tinymce\plugins\tabfocus\plugin.min.js" />
+    <Compile Include="Scripts\tinymce\plugins\table\plugin.js" />
+    <Compile Include="Scripts\tinymce\plugins\table\plugin.min.js" />
+    <Compile Include="Scripts\tinymce\plugins\template\plugin.js" />
+    <Compile Include="Scripts\tinymce\plugins\template\plugin.min.js" />
+    <Compile Include="Scripts\tinymce\plugins\textcolor\plugin.js" />
+    <Compile Include="Scripts\tinymce\plugins\textcolor\plugin.min.js" />
+    <Compile Include="Scripts\tinymce\plugins\textpattern\plugin.js" />
+    <Compile Include="Scripts\tinymce\plugins\textpattern\plugin.min.js" />
+    <Compile Include="Scripts\tinymce\plugins\toc\plugin.js" />
+    <Compile Include="Scripts\tinymce\plugins\toc\plugin.min.js" />
+    <Compile Include="Scripts\tinymce\plugins\visualblocks\plugin.js" />
+    <Compile Include="Scripts\tinymce\plugins\visualblocks\plugin.min.js" />
+    <Compile Include="Scripts\tinymce\plugins\visualchars\plugin.js" />
+    <Compile Include="Scripts\tinymce\plugins\visualchars\plugin.min.js" />
+    <Compile Include="Scripts\tinymce\plugins\wordcount\plugin.js" />
+    <Compile Include="Scripts\tinymce\plugins\wordcount\plugin.min.js" />
+    <Compile Include="Scripts\tinymce\themes\inlite\theme.js" />
+    <Compile Include="Scripts\tinymce\themes\inlite\theme.min.js" />
+    <Compile Include="Scripts\tinymce\themes\mobile\theme.js" />
+    <Compile Include="Scripts\tinymce\themes\mobile\theme.min.js" />
+    <Compile Include="Scripts\tinymce\themes\modern\theme.js" />
+    <Compile Include="Scripts\tinymce\themes\modern\theme.min.js" />
+    <Compile Include="Scripts\tinymce\tinymce.js" />
+    <Compile Include="Scripts\tinymce\tinymce.min.js" />
+    <Content Include="index.html" />
+    <Content Include="package.json" />
+    <Content Include="README.md" />
+    <Content Include="Scripts\jquery-3.3.1.min.map" />
+    <Content Include="Scripts\jquery-3.3.1.slim.min.map" />
+    <Content Include="Scripts\tinymce\langs\readme.md" />
+    <Content Include="Scripts\tinymce\license.txt" />
+    <Content Include="Scripts\tinymce\plugins\codesample\css\prism.css" />
+    <Content Include="Scripts\tinymce\plugins\compat3x\css\dialog.css" />
+    <Content Include="Scripts\tinymce\plugins\compat3x\img\buttons.png" />
+    <Content Include="Scripts\tinymce\plugins\compat3x\img\icons.gif" />
+    <Content Include="Scripts\tinymce\plugins\compat3x\img\items.gif" />
+    <Content Include="Scripts\tinymce\plugins\compat3x\img\menu_arrow.gif" />
+    <Content Include="Scripts\tinymce\plugins\compat3x\img\menu_check.gif" />
+    <Content Include="Scripts\tinymce\plugins\compat3x\img\progress.gif" />
+    <Content Include="Scripts\tinymce\plugins\compat3x\img\tabs.gif" />
+    <Content Include="Scripts\tinymce\plugins\emoticons\img\smiley-cool.gif" />
+    <Content Include="Scripts\tinymce\plugins\emoticons\img\smiley-cry.gif" />
+    <Content Include="Scripts\tinymce\plugins\emoticons\img\smiley-embarassed.gif" />
+    <Content Include="Scripts\tinymce\plugins\emoticons\img\smiley-foot-in-mouth.gif" />
+    <Content Include="Scripts\tinymce\plugins\emoticons\img\smiley-frown.gif" />
+    <Content Include="Scripts\tinymce\plugins\emoticons\img\smiley-innocent.gif" />
+    <Content Include="Scripts\tinymce\plugins\emoticons\img\smiley-kiss.gif" />
+    <Content Include="Scripts\tinymce\plugins\emoticons\img\smiley-laughing.gif" />
+    <Content Include="Scripts\tinymce\plugins\emoticons\img\smiley-money-mouth.gif" />
+    <Content Include="Scripts\tinymce\plugins\emoticons\img\smiley-sealed.gif" />
+    <Content Include="Scripts\tinymce\plugins\emoticons\img\smiley-smile.gif" />
+    <Content Include="Scripts\tinymce\plugins\emoticons\img\smiley-surprised.gif" />
+    <Content Include="Scripts\tinymce\plugins\emoticons\img\smiley-tongue-out.gif" />
+    <Content Include="Scripts\tinymce\plugins\emoticons\img\smiley-undecided.gif" />
+    <Content Include="Scripts\tinymce\plugins\emoticons\img\smiley-wink.gif" />
+    <Content Include="Scripts\tinymce\plugins\emoticons\img\smiley-yell.gif" />
+    <Content Include="Scripts\tinymce\plugins\help\img\logo.png" />
+    <Content Include="Scripts\tinymce\plugins\visualblocks\css\visualblocks.css" />
+    <Content Include="Scripts\tinymce\skins\lightgray\content.inline.min.css" />
+    <Content Include="Scripts\tinymce\skins\lightgray\content.min.css" />
+    <Content Include="Scripts\tinymce\skins\lightgray\content.mobile.min.css" />
+    <Content Include="Scripts\tinymce\skins\lightgray\fonts\tinymce-mobile.woff" />
+    <Content Include="Scripts\tinymce\skins\lightgray\fonts\tinymce-small.eot" />
+    <Content Include="Scripts\tinymce\skins\lightgray\fonts\tinymce-small.svg" />
+    <Content Include="Scripts\tinymce\skins\lightgray\fonts\tinymce-small.ttf" />
+    <Content Include="Scripts\tinymce\skins\lightgray\fonts\tinymce-small.woff" />
+    <Content Include="Scripts\tinymce\skins\lightgray\fonts\tinymce.eot" />
+    <Content Include="Scripts\tinymce\skins\lightgray\fonts\tinymce.svg" />
+    <Content Include="Scripts\tinymce\skins\lightgray\fonts\tinymce.ttf" />
+    <Content Include="Scripts\tinymce\skins\lightgray\fonts\tinymce.woff" />
+    <Content Include="Scripts\tinymce\skins\lightgray\img\anchor.gif" />
+    <Content Include="Scripts\tinymce\skins\lightgray\img\loader.gif" />
+    <Content Include="Scripts\tinymce\skins\lightgray\img\object.gif" />
+    <Content Include="Scripts\tinymce\skins\lightgray\img\trans.gif" />
+    <Content Include="Scripts\tinymce\skins\lightgray\skin.min.css" />
+    <Content Include="Scripts\tinymce\skins\lightgray\skin.mobile.min.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Scripts\" />
+    <Folder Include="Scripts\tinymce\" />
+    <Folder Include="Scripts\tinymce\langs\" />
+    <Folder Include="Scripts\tinymce\plugins\" />
+    <Folder Include="Scripts\tinymce\plugins\advlist\" />
+    <Folder Include="Scripts\tinymce\plugins\anchor\" />
+    <Folder Include="Scripts\tinymce\plugins\autolink\" />
+    <Folder Include="Scripts\tinymce\plugins\autoresize\" />
+    <Folder Include="Scripts\tinymce\plugins\autosave\" />
+    <Folder Include="Scripts\tinymce\plugins\bbcode\" />
+    <Folder Include="Scripts\tinymce\plugins\charmap\" />
+    <Folder Include="Scripts\tinymce\plugins\codesample\" />
+    <Folder Include="Scripts\tinymce\plugins\codesample\css\" />
+    <Folder Include="Scripts\tinymce\plugins\code\" />
+    <Folder Include="Scripts\tinymce\plugins\colorpicker\" />
+    <Folder Include="Scripts\tinymce\plugins\compat3x\" />
+    <Folder Include="Scripts\tinymce\plugins\compat3x\css\" />
+    <Folder Include="Scripts\tinymce\plugins\compat3x\img\" />
+    <Folder Include="Scripts\tinymce\plugins\compat3x\utils\" />
+    <Folder Include="Scripts\tinymce\plugins\contextmenu\" />
+    <Folder Include="Scripts\tinymce\plugins\directionality\" />
+    <Folder Include="Scripts\tinymce\plugins\emoticons\" />
+    <Folder Include="Scripts\tinymce\plugins\emoticons\img\" />
+    <Folder Include="Scripts\tinymce\plugins\fullpage\" />
+    <Folder Include="Scripts\tinymce\plugins\fullscreen\" />
+    <Folder Include="Scripts\tinymce\plugins\help\" />
+    <Folder Include="Scripts\tinymce\plugins\help\img\" />
+    <Folder Include="Scripts\tinymce\plugins\hr\" />
+    <Folder Include="Scripts\tinymce\plugins\imagetools\" />
+    <Folder Include="Scripts\tinymce\plugins\image\" />
+    <Folder Include="Scripts\tinymce\plugins\importcss\" />
+    <Folder Include="Scripts\tinymce\plugins\insertdatetime\" />
+    <Folder Include="Scripts\tinymce\plugins\legacyoutput\" />
+    <Folder Include="Scripts\tinymce\plugins\link\" />
+    <Folder Include="Scripts\tinymce\plugins\lists\" />
+    <Folder Include="Scripts\tinymce\plugins\media\" />
+    <Folder Include="Scripts\tinymce\plugins\nonbreaking\" />
+    <Folder Include="Scripts\tinymce\plugins\noneditable\" />
+    <Folder Include="Scripts\tinymce\plugins\pagebreak\" />
+    <Folder Include="Scripts\tinymce\plugins\paste\" />
+    <Folder Include="Scripts\tinymce\plugins\preview\" />
+    <Folder Include="Scripts\tinymce\plugins\print\" />
+    <Folder Include="Scripts\tinymce\plugins\save\" />
+    <Folder Include="Scripts\tinymce\plugins\searchreplace\" />
+    <Folder Include="Scripts\tinymce\plugins\spellchecker\" />
+    <Folder Include="Scripts\tinymce\plugins\tabfocus\" />
+    <Folder Include="Scripts\tinymce\plugins\table\" />
+    <Folder Include="Scripts\tinymce\plugins\template\" />
+    <Folder Include="Scripts\tinymce\plugins\textcolor\" />
+    <Folder Include="Scripts\tinymce\plugins\textpattern\" />
+    <Folder Include="Scripts\tinymce\plugins\toc\" />
+    <Folder Include="Scripts\tinymce\plugins\visualblocks\" />
+    <Folder Include="Scripts\tinymce\plugins\visualblocks\css\" />
+    <Folder Include="Scripts\tinymce\plugins\visualchars\" />
+    <Folder Include="Scripts\tinymce\plugins\wordcount\" />
+    <Folder Include="Scripts\tinymce\skins\" />
+    <Folder Include="Scripts\tinymce\skins\lightgray\" />
+    <Folder Include="Scripts\tinymce\skins\lightgray\fonts\" />
+    <Folder Include="Scripts\tinymce\skins\lightgray\img\" />
+    <Folder Include="Scripts\tinymce\themes\" />
+    <Folder Include="Scripts\tinymce\themes\inlite\" />
+    <Folder Include="Scripts\tinymce\themes\mobile\" />
+    <Folder Include="Scripts\tinymce\themes\modern\" />
+  </ItemGroup>
+  <!-- Do not delete the following Import Project.  While this appears to do nothing it is a marker for setting TypeScript properties before our import that depends on them. -->
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Condition="False" />
+  <Import Project="$(VSToolsPath)\Node.js Tools\Microsoft.NodejsTools.targets" />
+</Project>
